@@ -1,0 +1,28 @@
+server:
+  port: 8082
+#spring:
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          api-client-oidc:
+#            provider: spring
+#            client-id: client1
+#            client-secret: secret
+#            authorization-grant-type: authorization-code
+#            redirect-uri: "http://127.0.0.1:8082/login/oauth2/code/{registrationId}"
+#            scope: openid
+#            client-name: api-client-oidc
+#          api-client-authorization-code:
+#            provider: spring
+#            client-id: client1
+#            client-secret: secret
+#            authorization-grant-type: authorization-code
+#            redirect-uri: "http://127.0.0.1:8082/authorized"
+#            scope: read
+#            client-name: api-client-authorization-code
+#        provider:
+#          spring:
+#            issuer-uri: http://oauth2-server:8080
+
+
